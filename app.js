@@ -33,7 +33,7 @@ sendEmail = async () => {
       from: '"Favour ori 👻" <favour@learningnode.com>', // sender address
       to: "orifavour2000@gmail.com", // list of receivers
       subject: "Sending Email in Node Js work", // Subject line
-      text: "Hello world?", // plain text body
+      text: "Hello world 🥰", // plain text body
       html: emailBody
     });
 
