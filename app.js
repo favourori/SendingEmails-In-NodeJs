@@ -32,7 +32,7 @@ sendEmail = async () => {
     let info = await transporter.sendMail({
       from: '"Favour ori 👻" <favour@learningnode.com>', // sender address
       to: "orifavour2000@gmail.com", // list of receivers
-      subject: "Hello From NodeMailer✔", // Subject line
+      subject: "Sending Email in Node Js work", // Subject line
       text: "Hello world?", // plain text body
       html: emailBody
     });
